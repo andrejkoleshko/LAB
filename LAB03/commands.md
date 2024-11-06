@@ -40,7 +40,7 @@
 26. ln -s ~/structure/2019/ ~/structure/soft_links/ && ln -s ~/structure/2020/ ~/structure/soft_links/ && ln -s ~/structure/2021/ ~/structure/soft_links/ && ln -s ~/structure/2022/ ~/structure/soft_links/ && ln -s ~/structure/2023/ ~/structure/soft_links/
 27. ln -s ~/structure/2020/files/data.md ~/structure/hard_links/ && ln -s ~/structure/2021/.passwords/.passwords.txt ~/structure/hard_links/
 28. mkdir structure/archives
-
+29. 
 30. mv ~/Downloads/image.jpg ~/structure/archives
 31. tar -cvf structure/Image.tar structure/archives/image.jpg && tar -cvzf structure/Image.tar.gz structure/archives/image.jpg && tar -cvjf structure/Image.tar.bz2 structure/archives/image.jpg
 32. zip -e -r structure.zip structure/ 

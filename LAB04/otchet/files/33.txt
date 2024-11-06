@@ -1,0 +1,217 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3  22612 13696 ?        Ss   18:08   0:00 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    18:08   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    18:08   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-netns]
+root          10  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/0:0H-events_highpri]
+root          11  0.0  0.0      0     0 ?        I    18:08   0:00 [kworker/u2:0-flush-8:0]
+root          12  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-mm_pe]
+root          13  0.0  0.0      0     0 ?        I    18:08   0:00 [rcu_tasks_kthread]
+root          14  0.0  0.0      0     0 ?        I    18:08   0:00 [rcu_tasks_rude_kthread]
+root          15  0.0  0.0      0     0 ?        I    18:08   0:00 [rcu_tasks_trace_kthread]
+root          16  0.0  0.0      0     0 ?        S    18:08   0:00 [ksoftirqd/0]
+root          17  0.0  0.0      0     0 ?        I    18:08   0:00 [rcu_preempt]
+root          18  0.0  0.0      0     0 ?        S    18:08   0:00 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    18:08   0:00 [idle_inject/0]
+root          20  0.0  0.0      0     0 ?        S    18:08   0:00 [cpuhp/0]
+root          21  0.0  0.0      0     0 ?        S    18:08   0:00 [kdevtmpfs]
+root          22  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-inet_]
+root          23  0.0  0.0      0     0 ?        I    18:08   0:00 [kworker/u2:1-events_power_efficient]
+root          24  0.0  0.0      0     0 ?        S    18:08   0:00 [kauditd]
+root          25  0.0  0.0      0     0 ?        S    18:08   0:00 [khungtaskd]
+root          26  0.0  0.0      0     0 ?        S    18:08   0:00 [oom_reaper]
+root          27  0.0  0.0      0     0 ?        I    18:08   0:00 [kworker/u2:2-events_unbound]
+root          28  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-write]
+root          29  0.0  0.0      0     0 ?        S    18:08   0:00 [kcompactd0]
+root          30  0.0  0.0      0     0 ?        SN   18:08   0:00 [ksmd]
+root          31  0.0  0.0      0     0 ?        SN   18:08   0:00 [khugepaged]
+root          32  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-kinte]
+root          33  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-kbloc]
+root          34  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-blkcg]
+root          35  0.0  0.0      0     0 ?        S    18:08   0:00 [irq/9-acpi]
+root          36  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-tpm_d]
+root          37  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-ata_s]
+root          38  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-md]
+root          39  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-md_bi]
+root          40  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-edac-]
+root          41  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-devfr]
+root          42  0.0  0.0      0     0 ?        S    18:08   0:00 [watchdogd]
+root          43  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/0:1H-kblockd]
+root          44  0.0  0.0      0     0 ?        S    18:08   0:00 [kswapd0]
+root          45  0.0  0.0      0     0 ?        S    18:08   0:00 [ecryptfs-kthread]
+root          46  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-kthro]
+root          47  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-acpi_]
+root          48  0.0  0.0      0     0 ?        S    18:08   0:00 [scsi_eh_0]
+root          49  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-scsi_]
+root          50  0.0  0.0      0     0 ?        S    18:08   0:00 [scsi_eh_1]
+root          51  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-scsi_]
+root          55  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-mld]
+root          56  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-ipv6_]
+root          63  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-kstrp]
+root          65  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/u3:0-ttm]
+root          70  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-crypt]
+root          72  0.0  0.0      0     0 ?        I    18:08   0:00 [kworker/0:3-cgroup_destroy]
+root          81  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-charg]
+root         129  0.0  0.0      0     0 ?        S    18:08   0:00 [scsi_eh_2]
+root         130  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-scsi_]
+root         157  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-raid5]
+root         203  0.0  0.0      0     0 ?        S    18:08   0:00 [jbd2/sda2-8]
+root         204  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-ext4-]
+root         255  0.0  0.4  66956 17784 ?        S<s  18:08   0:00 /usr/lib/systemd/systemd-journald
+root         310  0.0  0.1  29792  7936 ?        Ss   18:08   0:00 /usr/lib/systemd/systemd-udevd
+root         317  0.0  0.0      0     0 ?        S    18:08   0:00 [psimon]
+root         394  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-iprt-]
+root         402  0.0  0.0      0     0 ?        S    18:08   0:00 [irq/18-vmwgfx]
+root         403  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/R-ttm]
+root         434  0.0  0.0      0     0 ?        S<   18:08   0:00 [spl_system_task]
+root         435  0.0  0.0      0     0 ?        S<   18:08   0:00 [spl_delay_taskq]
+root         436  0.0  0.0      0     0 ?        S<   18:08   0:00 [spl_dynamic_tas]
+root         437  0.0  0.0      0     0 ?        S<   18:08   0:00 [spl_kmem_cache]
+root         438  0.0  0.0      0     0 ?        S<   18:08   0:00 [zvol]
+root         439  0.0  0.0      0     0 ?        S    18:08   0:00 [arc_prune]
+root         440  0.0  0.0      0     0 ?        S    18:08   0:00 [arc_evict]
+root         441  0.0  0.0      0     0 ?        SN   18:08   0:00 [arc_reap]
+root         442  0.0  0.0      0     0 ?        S    18:08   0:00 [dbu_evict]
+root         443  0.0  0.0      0     0 ?        SN   18:08   0:00 [dbuf_evict]
+root         444  0.0  0.0      0     0 ?        SN   18:08   0:00 [z_vdev_file]
+root         445  0.0  0.0      0     0 ?        S    18:08   0:00 [l2arc_feed]
+systemd+     499  0.0  0.3  21580 13184 ?        Ss   18:08   0:00 /usr/lib/systemd/systemd-resolved
+systemd+     502  0.0  0.1  91212  7808 ?        Ssl  18:08   0:00 /usr/lib/systemd/systemd-timesyncd
+root         595  0.0  0.2 318880  8032 ?        Ssl  18:08   0:00 /usr/libexec/accounts-daemon
+avahi        597  0.0  0.1   8608  4480 ?        Ss   18:08   0:00 avahi-daemon: running [andrej-pc.local]
+root         599  0.0  0.0  15008  2816 ?        Ss   18:08   0:00 /usr/sbin/cron -f -P
+message+     600  0.0  0.1  11096  6528 ?        Ss   18:08   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd      625  0.0  0.2 384608 10924 ?        Ssl  18:08   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         627  0.0  0.1 315308  6784 ?        Ssl  18:08   0:00 /usr/libexec/switcheroo-control
+root         628  0.0  0.2  18096  9056 ?        Ss   18:08   0:00 /usr/lib/systemd/systemd-logind
+root         631  0.0  0.3 469232 13776 ?        Ssl  18:08   0:00 /usr/libexec/udisks2/udisksd
+root         644  0.0  0.1 102120  5504 ?        Ssl  18:08   0:00 zed -F
+avahi        679  0.0  0.0   8420  1416 ?        S    18:08   0:00 avahi-daemon: chroot helper
+syslog       683  0.0  0.1 222508  6016 ?        Ssl  18:08   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         687  0.0  0.4 341948 19400 ?        Ssl  18:08   0:00 /usr/sbin/NetworkManager --no-daemon
+root         693  0.0  0.1  17376  6144 ?        Ss   18:08   0:00 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+root         739  0.0  0.3 318364 12796 ?        Ssl  18:08   0:00 /usr/sbin/ModemManager
+root        1065  0.0  0.0 295168  2816 ?        Sl   18:08   0:00 /usr/bin/VBoxDRMClient
+root        1068  0.0  0.0 301324  3716 ?        Sl   18:08   0:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root        1081  0.0  0.0      0     0 ?        I<   18:08   0:00 [kworker/u3:1-ttm]
+root        1084  0.0  0.3  43832 12032 ?        Ss   18:08   0:00 /usr/sbin/cupsd -l
+root        1097  0.0  0.1 380076  7468 ?        SLsl 18:08   0:00 /usr/sbin/lightdm
+root        1113  2.0  4.2 451552 168840 tty7    Ssl+ 18:08   0:24 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root        1117  0.0  0.0  14288  1920 tty1     Ss+  18:08   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+cups-br+    1121  0.0  0.4 268400 19968 ?        Ssl  18:08   0:00 /usr/sbin/cups-browsed
+kernoops    1123  0.0  0.0  12744  2452 ?        Ss   18:08   0:00 /usr/sbin/kerneloops --test
+kernoops    1126  0.0  0.0  12744  2452 ?        Ss   18:08   0:00 /usr/sbin/kerneloops
+root        1169  0.0  0.0      0     0 ?        S    18:08   0:00 [psimon]
+rtkit       1196  0.0  0.0  22940  3456 ?        SNsl 18:08   0:00 /usr/libexec/rtkit-daemon
+root        1269  0.0  0.2 322248  9088 ?        Ssl  18:08   0:00 /usr/libexec/upowerd
+root        1278  0.0  0.2 236464  9232 ?        Sl   18:08   0:00 lightdm --session-child 13 20
+andrejk+    1302  0.0  0.2  20552 11648 ?        Ss   18:09   0:00 /usr/lib/systemd/systemd --user
+andrejk+    1303  0.0  0.0  23144  3720 ?        S    18:09   0:00 (sd-pam)
+andrejk+    1312  0.0  0.3 118956 12544 ?        S<sl 18:09   0:00 /usr/bin/pipewire
+andrejk+    1313  0.0  0.1 103320  5888 ?        Ssl  18:09   0:00 /usr/bin/pipewire -c filter-chain.conf
+andrejk+    1315  0.0  0.4 412400 18816 ?        S<sl 18:09   0:00 /usr/bin/wireplumber
+andrejk+    1317  0.0  0.2 115388 11264 ?        S<sl 18:09   0:00 /usr/bin/pipewire-pulse
+andrejk+    1318  0.0  0.2 322092 10240 ?        SLsl 18:09   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+andrejk+    1323  0.0  0.1  10512  6180 ?        Ss   18:09   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+andrejk+    1337  0.0  0.6 382304 25952 ?        Ssl  18:09   0:00 xfce4-session
+andrejk+    1477  0.0  0.0  25520  1564 ?        S    18:09   0:00 /usr/bin/VBoxClient --clipboard
+andrejk+    1478  0.0  0.1 223708  4124 ?        Sl   18:09   0:00 /usr/bin/VBoxClient --clipboard
+andrejk+    1492  0.0  0.0  25520  1664 ?        S    18:09   0:00 /usr/bin/VBoxClient --seamless
+andrejk+    1493  0.0  0.0 223816  3456 ?        Sl   18:09   0:00 /usr/bin/VBoxClient --seamless
+andrejk+    1500  0.0  0.0  25520  1564 ?        S    18:09   0:00 /usr/bin/VBoxClient --draganddrop
+andrejk+    1501  0.0  0.0 224332  3100 ?        Sl   18:09   0:00 /usr/bin/VBoxClient --draganddrop
+andrejk+    1507  0.0  0.0  25520  1536 ?        S    18:09   0:00 /usr/bin/VBoxClient --vmsvga-session
+andrejk+    1511  0.0  0.0 223776  3584 ?        Sl   18:09   0:00 /usr/bin/VBoxClient --vmsvga-session
+andrejk+    1603  0.0  0.2 319836  8064 ?        Ssl  18:09   0:00 /usr/libexec/gvfsd
+andrejk+    1609  0.0  0.1 465300  7296 ?        Sl   18:09   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+andrejk+    1611  0.0  0.2 383092  8320 ?        Ssl  18:09   0:00 /usr/libexec/at-spi-bus-launcher
+andrejk+    1625  0.0  0.1   9552  5120 ?        S    18:09   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+andrejk+    1627  0.0  0.1 315388  6656 ?        Sl   18:09   0:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+andrejk+    1634  0.0  0.2 236044  8064 ?        Sl   18:09   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+andrejk+    1641  0.0  0.0   8300  1460 ?        Ss   18:09   0:00 /usr/bin/ssh-agent -s
+andrejk+    1650  0.0  0.0 163296  3328 ?        SLsl 18:09   0:00 /usr/bin/gpg-agent --supervised
+andrejk+    1653  0.2  2.7 660084 108888 ?       Sl   18:09   0:02 xfwm4
+andrejk+    1659  0.0  0.6 309776 27692 ?        Sl   18:09   0:00 xfsettingsd
+andrejk+    1666  0.1  1.4 485232 57276 ?        Sl   18:09   0:01 xfce4-panel
+andrejk+    1671  0.0  1.3 554660 54856 ?        Sl   18:09   0:00 Thunar --daemon
+andrejk+    1677  0.0  1.5 485396 60232 ?        Sl   18:09   0:00 xfdesktop
+andrejk+    1681  0.0  1.1 543476 44188 ?        Sl   18:09   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 23068679 whiskermenu Whisker Menu Show a menu to easily access installed applications
+andrejk+    1682  0.0  0.6 455464 26752 ?        Sl   18:09   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 8 23068680 systray Status Tray Plugin Provides status notifier items (application indicators) and legacy systray items
+andrejk+    1686  0.0  1.0 467544 40844 ?        Sl   18:09   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 9 23068681 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+andrejk+    1687  0.0  1.0 541856 42100 ?        Sl   18:09   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxapp-status-plugin.so 10 23068682 xapp-status-plugin XApp Status Plugin Area where XApp Status icons appear
+andrejk+    1688  0.0  1.0 394492 41420 ?        Sl   18:09   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 11 23068683 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+andrejk+    1689  0.0  1.0 464932 43740 ?        Sl   18:09   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 12 23068684 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+andrejk+    1712  0.0  0.1 230108  5760 ?        Ssl  18:09   0:00 /usr/libexec/dconf-service
+andrejk+    1720  0.0  1.1 471480 44640 ?        Ssl  18:09   0:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+andrejk+    1729  0.0  0.2 594368  9216 ?        Sl   18:09   0:00 xiccd
+andrejk+    1731  0.0  1.5 811312 62064 ?        Sl   18:09   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+colord      1738  0.0  0.3 325612 14536 ?        Ssl  18:09   0:00 /usr/libexec/colord
+andrejk+    1739  0.0  1.5 563748 60600 ?        Sl   18:09   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+andrejk+    1743  0.0  0.5 303952 20480 ?        Sl   18:09   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+andrejk+    1745  0.0  0.6 381304 25856 ?        Sl   18:09   0:00 light-locker
+andrejk+    1750  0.0  0.5 304852 21504 ?        Sl   18:09   0:00 xfce4-power-manager
+andrejk+    1752  0.0  0.2 394928 10112 ?        Ssl  18:09   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+andrejk+    1766  0.0  0.1 315380  6528 ?        Ssl  18:09   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+andrejk+    1773  0.0  0.2 394960  8192 ?        Ssl  18:09   0:00 /usr/libexec/gvfs-afc-volume-monitor
+andrejk+    1782  0.0  0.1 316348  6912 ?        Ssl  18:09   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+andrejk+    1796  0.0  0.1 315356  6656 ?        Ssl  18:09   0:00 /usr/libexec/gvfs-goa-volume-monitor
+andrejk+    1806  0.0  0.6 552376 24064 ?        Sl   18:09   0:00 /usr/libexec/goa-daemon
+andrejk+    1808  0.0  0.1 315844  6528 ?        Sl   18:09   0:00 /usr/libexec/geoclue-2.0/demos/agent
+andrejk+    1809  0.1  1.3 565912 54328 ?        Sl   18:09   0:01 mintreport-tray
+andrejk+    1824  0.0  0.2 468444  9344 ?        Sl   18:09   0:00 /usr/libexec/goa-identity-service
+andrejk+    1851  0.0  0.9  72040 39552 ?        S    18:09   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+andrejk+    1869  0.0  1.1 552280 44900 ?        Sl   18:09   0:00 nm-applet
+andrejk+    1934  0.0  1.0 583836 42496 ?        Ssl  18:09   0:00 /usr/libexec/evolution-source-registry
+andrejk+    1953  0.0  0.6 699872 24192 ?        Ssl  18:09   0:00 /usr/libexec/evolution-calendar-factory
+andrejk+    1970  0.0  0.7 691748 29696 ?        Ssl  18:09   0:00 /usr/libexec/evolution-addressbook-factory
+andrejk+    2000  0.0  0.2  49064  8192 ?        Ss   18:09   0:00 /usr/libexec/bluetooth/obexd
+andrejk+    2002  0.0  2.1 752532 85760 ?        Sl   18:09   0:00 mintUpdate
+andrejk+    2065  1.0  8.9 3016244 355684 ?      Sl   18:09   0:12 /usr/lib/firefox/firefox
+andrejk+    2107  0.0  0.7 212728 31872 ?        Sl   18:09   0:00 /usr/lib/firefox/firefox-bin -contentproc -parentBuildID 20240704121409 -prefsLen 29346 -prefMapSize 248473 -appDir /usr/lib/firefox/browser {4c298810-65e9-4999-b606-1273f047674a} 2065 true socket
+andrejk+    2110  0.0  0.4 569480 17924 ?        Ssl  18:09   0:00 /usr/libexec/xdg-desktop-portal
+andrejk+    2120  0.0  0.1 616908  7424 ?        Ssl  18:09   0:00 /usr/libexec/xdg-document-portal
+andrejk+    2126  0.0  0.1 314892  6016 ?        Ssl  18:09   0:00 /usr/libexec/xdg-permission-store
+root        2137  0.0  0.0   2704  1920 ?        Ss   18:09   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+andrejk+    2141  0.0  0.5 451748 20608 ?        Ssl  18:09   0:00 /usr/libexec/xdg-desktop-portal-xapp
+andrejk+    2150  0.0  0.5 453732 22972 ?        Ssl  18:09   0:00 /usr/libexec/xdg-desktop-portal-gtk
+andrejk+    2168  0.0  2.8 2436068 112752 ?      Sl   18:09   0:00 /usr/lib/firefox/firefox-bin -contentproc -childID 1 -isForBrowser -prefsLen 29487 -prefMapSize 248473 -jsInitLen 234780 -parentBuildID 20240704121409 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser {d0b0e780-cdc6-4dde-b056-e45d69fad0dd} 2065 true tab
+andrejk+    2207  0.1  3.7 2494560 149380 ?      Sl   18:09   0:01 /usr/lib/firefox/firefox-bin -contentproc -childID 2 -isForBrowser -prefsLen 32049 -prefMapSize 248473 -jsInitLen 234780 -parentBuildID 20240704121409 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser {f3ba1094-9cbe-4c0a-a95c-841c201f05ac} 2065 true tab
+andrejk+    2210  0.0  2.2 2437548 88712 ?       Sl   18:09   0:00 /usr/lib/firefox/firefox-bin -contentproc -childID 3 -isForBrowser -prefsLen 35328 -prefMapSize 248473 -jsInitLen 234780 -parentBuildID 20240704121409 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser {ea3ab0d5-e7bd-4493-b2f6-69683fc648c7} 2065 true tab
+andrejk+    2312  0.0  0.7 211332 30720 ?        Sl   18:09   0:00 /usr/lib/firefox/firefox-bin -contentproc -parentBuildID 20240704121409 -sandboxingKind 0 -prefsLen 35328 -prefMapSize 248473 -appDir /usr/lib/firefox/browser {c5db4b54-00b2-4b88-a30e-c36b5641e970} 2065 true utility
+andrejk+    2323  0.0  1.2 2406988 48124 ?       Sl   18:09   0:00 /usr/lib/firefox/firefox-bin -contentproc -childID 4 -isForBrowser -prefsLen 32049 -prefMapSize 248473 -jsInitLen 234780 -parentBuildID 20240704121409 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser {8c0c43a1-efe3-40d6-9f69-1c66f17a98f0} 2065 true tab
+andrejk+    2325  0.0  1.2 2406988 48216 ?       Sl   18:09   0:00 /usr/lib/firefox/firefox-bin -contentproc -childID 5 -isForBrowser -prefsLen 32049 -prefMapSize 248473 -jsInitLen 234780 -parentBuildID 20240704121409 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser {926ae59c-698b-42b9-8c65-1e83802f1e25} 2065 true tab
+andrejk+    2331  0.0  1.2 2406988 48052 ?       Sl   18:09   0:00 /usr/lib/firefox/firefox-bin -contentproc -childID 6 -isForBrowser -prefsLen 32049 -prefMapSize 248473 -jsInitLen 234780 -parentBuildID 20240704121409 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser {043a7872-54e9-4016-9518-eaa62fcde074} 2065 true tab
+andrejk+    2469  0.0  0.1 241888  6656 ?        Ssl  18:10   0:00 /usr/libexec/gvfsd-metadata
+andrejk+    2473  0.2  4.4 2572436 178840 ?      Sl   18:10   0:02 /usr/lib/firefox/firefox-bin -contentproc -childID 7 -isForBrowser -prefsLen 35433 -prefMapSize 248473 -jsInitLen 234780 -parentBuildID 20240704121409 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser {f7dc9a2c-6a9c-403f-8847-5a88e3034a54} 2065 true tab
+andrejk+    2510  0.0  1.1 495904 45960 ?        Sl   18:10   0:00 xfce4-terminal
+andrejk+    2516  0.0  0.1  19740  7984 pts/0    Ss   18:10   0:01 zsh
+andrejk+    2549  0.0  0.0  18460  3952 pts/0    S    18:10   0:00 zsh
+andrejk+    2560  0.0  0.1  19052  4388 pts/0    S    18:10   0:00 zsh
+andrejk+    2562  0.0  0.1  19036  4132 pts/0    S    18:10   0:00 zsh
+andrejk+    2563  0.0  0.0   2616  1408 pts/0    Sl   18:10   0:00 /home/andrejkoleshko/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 2
+andrejk+    2593  0.2  4.3 1189291236 173304 ?   Ssl  18:11   0:02 /usr/share/code/code
+andrejk+    2597  0.0  1.1 33792168 46592 ?      S    18:11   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+andrejk+    2598  0.0  1.1 33792160 46848 ?      S    18:11   0:00 /usr/share/code/code --type=zygote
+andrejk+    2600  0.0  0.2 33792192 11896 ?      S    18:11   0:00 /usr/share/code/code --type=zygote
+andrejk+    2619  0.0  0.0 33575876 3328 ?       Sl   18:11   0:00 /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/andrejkoleshko/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=9066ccce-665d-43ec-9ad2-4410384aa06f&iid=9066ccce-665d-43ec-9ad2-4410384aa06f&sid=9066ccce-665d-43ec-9ad2-4410384aa06f --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.94.1 --annotation=lsb-release=Linux Mint 22 --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=30.5.1 --initial-client-fd=48 --shared-client-connection
+andrejk+    2633  0.5  3.0 34082224 120000 ?     Sl   18:11   0:06 /usr/share/code/code --type=gpu-process --crashpad-handler-pid=2619 --enable-crash-reporter=5d0b479a-c944-401e-8fc6-6d2341c1b2ba,no_channel --user-data-dir=/home/andrejkoleshko/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,12099300858390211798,10373799274152369675,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+andrejk+    2638  0.0  1.7 33843744 67916 ?      Sl   18:11   0:00 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2619 --enable-crash-reporter=5d0b479a-c944-401e-8fc6-6d2341c1b2ba,no_channel --user-data-dir=/home/andrejkoleshko/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12099300858390211798,10373799274152369675,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+andrejk+    2659  0.9  5.9 1189100408 237876 ?   Sl   18:11   0:10 /usr/share/code/code --type=renderer --crashpad-handler-pid=2619 --enable-crash-reporter=5d0b479a-c944-401e-8fc6-6d2341c1b2ba,no_channel --user-data-dir=/home/andrejkoleshko/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration, --lang=en-US --num-raster-threads=1 --renderer-client-id=4 --time-ticks-at-unix-epoch=-1730905709148493 --launch-time-ticks=152891914 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12099300858390211798,10373799274152369675,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:9dc14841-b13a-40a1-85ba-67ae4b95e715
+andrejk+    2675  0.1  3.0 1189059428 121988 ?   Sl   18:11   0:01 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=2619 --enable-crash-reporter=5d0b479a-c944-401e-8fc6-6d2341c1b2ba,no_channel --user-data-dir=/home/andrejkoleshko/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12099300858390211798,10373799274152369675,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+andrejk+    2685  0.0  2.6 1189058040 104116 ?   Sl   18:11   0:00 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2619 --enable-crash-reporter=5d0b479a-c944-401e-8fc6-6d2341c1b2ba,no_channel --user-data-dir=/home/andrejkoleshko/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12099300858390211798,10373799274152369675,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+andrejk+    2686  0.0  2.3 1189058592 93936 ?    Sl   18:11   0:00 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2619 --enable-crash-reporter=5d0b479a-c944-401e-8fc6-6d2341c1b2ba,no_channel --user-data-dir=/home/andrejkoleshko/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12099300858390211798,10373799274152369675,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+andrejk+    2726  0.0  2.0 1186815908 81880 ?    Sl   18:11   0:00 /usr/share/code/code /usr/share/code/resources/app/extensions/markdown-language-features/dist/serverWorkerMain --node-ipc --clientProcessId=2675
+andrejk+    2763  0.0  0.2 541296  8960 ?        Sl   18:11   0:00 /usr/libexec/gvfsd-trash --spawner :1.17 /org/gtk/gvfs/exec_spaw/0
+andrejk+    2778  0.1  1.9 669612 77180 ?        Sl   18:11   0:01 /usr/bin/xed /home/andrejkoleshko/Downloads/otchet (updated 4).md
+root        3602  0.0  0.0      0     0 ?        I    18:19   0:00 [kworker/u2:4-events_power_efficient]
+root        3612  0.0  0.7 472160 28328 ?        Ssl  18:20   0:00 /usr/libexec/fwupd/fwupd
+andrejk+    3623  0.0  0.6 504716 25924 ?        SNsl 18:20   0:00 /usr/lib/x86_64-linux-gnu/tumbler-1/tumblerd
+root        3655  0.0  0.0      0     0 ?        I    18:21   0:00 [kworker/0:1-cgroup_destroy]
+andrejk+    3706  0.0  0.2 467932  8960 ?        Sl   18:22   0:00 /usr/libexec/gvfsd-network --spawner :1.17 /org/gtk/gvfs/exec_spaw/1
+andrejk+    3726  0.0  0.2 396132  9216 ?        Sl   18:22   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.17 /org/gtk/gvfs/exec_spaw/3
+root        3766  0.0  0.0      0     0 ?        I    18:23   0:00 [kworker/0:2-events]
+root        3873  0.0  0.0      0     0 ?        I    18:26   0:00 [kworker/u2:3]
+andrejk+    3948  0.0  0.1  19204  4608 pts/0    R+   18:29   0:00 ps aux
