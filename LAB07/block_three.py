@@ -3,17 +3,26 @@
 import os
 print("\ntask №3")
 def find_files(name, path):
-    found_files = []
-    for root, dirs, files in os.walk(path):
-        for file in files:
-            if name in file:
-                found_files.append(os.path.join(root, file))
-    return found_files
-
-name = input("Введите имя файла для поиска: ")
+    # Создаем пустой список для хранения найденных файлов
+    found_files = []  
+    # Проходим по всем файлам и директориям в указанном пути
+    for root, dirs, files in os.walk(path): 
+        # Перебираем все файлы в текущей директории
+        for file in files:  
+            # Перебираем все директории в текущей директории
+            for dir in dirs: 
+                 # Проверяем, содержит ли имя файла строку поиска 
+                if name in file: 
+                    # Добавляем путь к файлу в список найденных
+                    found_files.append(os.path.join(root, dir, file))  
+     # Возвращаем список найденных файлов                
+    return found_files 
+# Указываем имя и путь файла для поиска
+name = input("Введите имя файла для поиска: ")  
 path = input("Введите путь для поиска файла: ")
 
-found_files = find_files(name, path)
+# Вызываем функцию поиска файлов
+found_files = find_files(name, path)  
 
 if found_files:
     for file in found_files:

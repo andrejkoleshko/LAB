@@ -6,6 +6,7 @@
 
 import csv
 print("task №11.1")
+# открывает CSV файл и читает данные из него, затем возвращает список словарей данных
 def read_csv_file(file):
     data = []
     with open("11.csv", 'r') as file:
@@ -14,30 +15,30 @@ def read_csv_file(file):
             data.append(row)
     
     return data
-
+# выводит данные из списка словарей в удобочитаемом формате
 def print_data(data):
     for row in data:
         for key, value in row.items():
             print(f"{key} → {value}")
         print()
-
+# находит минимальное значение в указанной колонке
 def find_min(data, column_name):
     values = [float(row[column_name]) for row in data]
     return min(values)
-
+# находит максимальное значение в указанной колонке
 def find_max(data, column_name):
     values = [float(row[column_name]) for row in data]
     return max(values)
-
+# считает сумму значений в указанной колонке
 def find_sum(data, column_name):
     values = [float(row[column_name]) for row in data]
     return sum(values)
-
+# вычисляет среднее значение в указанной колонке
 def find_avg(data, column_name):
     values = [float(row[column_name]) for row in data]
     return sum(values) / len(values)
 
-
+# чтение данных из файла
 data = read_csv_file("11.csv")
 
 print_data(data)
@@ -48,17 +49,18 @@ print_data(data)
 
 print("\n(task №11.2)")
 import json
-
+# Функция для чтения данных из JSON файла
 def read_json(file):
     with open('lab.json', 'r') as file:
         data = json.load(file)
     return data
-
+# Функция для записи данных в JSON файл
 def write_json(data, file):
     with open('out.json', 'w') as file:
         json.dump(data, file, indent=4)
-
+# Функция для нахождения пользователей с определенным языком
 def find_users_by_language(data, language):
+# Фильтруем данные и находим пользователей с определенным языком
     filtered_data = [user for user in data if user.get("language") == language]
     return filtered_data
 
